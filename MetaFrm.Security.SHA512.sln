@@ -14,7 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{98BC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{E8BD125A-295F-4A28-8B57-9AE7D27EED2E}"
 	ProjectSection(SolutionItems) = preProject
-		.github\workflows\build.yml = .github\workflows\build.yml
+		.github\workflows\build_6.0.yml = .github\workflows\build_6.0.yml
+		.github\workflows\build_7.0.yml = .github\workflows\build_7.0.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{AA1A1F68-8081-40A9-AF23-B09F856A272B}"
@@ -23,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루�
 		license = license
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Security.SHA512(net7.0)", "MetaFrm.Security.SHA512(net7.0)\MetaFrm.Security.SHA512(net7.0).csproj", "{05B85248-4545-40B0-966D-185D807C4BA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +37,10 @@ Global
 		{39BC9BD8-6163-496F-BC1B-13F991DC61EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39BC9BD8-6163-496F-BC1B-13F991DC61EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39BC9BD8-6163-496F-BC1B-13F991DC61EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B85248-4545-40B0-966D-185D807C4BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B85248-4545-40B0-966D-185D807C4BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B85248-4545-40B0-966D-185D807C4BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B85248-4545-40B0-966D-185D807C4BA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
