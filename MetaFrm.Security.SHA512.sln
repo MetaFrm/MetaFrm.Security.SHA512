@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Security.SHA512(net6.0)", "MetaFrm.Security.SHA512(net6.0)\MetaFrm.Security.SHA512(net6.0).csproj", "{39BC9BD8-6163-496F-BC1B-13F991DC61EB}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E9A482E6-0B91-44E4-8BA4-C7E34C82EA5B}"
 	ProjectSection(SolutionItems) = preProject
 		src\SHA512.cs = src\SHA512.cs
@@ -14,9 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{98BC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{E8BD125A-295F-4A28-8B57-9AE7D27EED2E}"
 	ProjectSection(SolutionItems) = preProject
-		.github\workflows\build_6.0.yml = .github\workflows\build_6.0.yml
-		.github\workflows\build_7.0.yml = .github\workflows\build_7.0.yml
 		.github\workflows\build_8.0.yml = .github\workflows\build_8.0.yml
+		.github\workflows\build_9.0.yml = .github\workflows\build_9.0.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{AA1A1F68-8081-40A9-AF23-B09F856A272B}"
@@ -26,9 +23,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루�
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Security.SHA512(net7.0)", "MetaFrm.Security.SHA512(net7.0)\MetaFrm.Security.SHA512(net7.0).csproj", "{05B85248-4545-40B0-966D-185D807C4BA4}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Security.SHA512(net8.0)", "MetaFrm.Security.SHA512(net8.0)\MetaFrm.Security.SHA512(net8.0).csproj", "{98271D57-4D50-4923-B0FC-B6B41326295A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaFrm.Security.SHA512(net9.0)", "MetaFrm.Security.SHA512(net9.0)\MetaFrm.Security.SHA512(net9.0).csproj", "{E94909B6-5EC3-4316-BE05-7FCACAA7F8C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,18 +33,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{39BC9BD8-6163-496F-BC1B-13F991DC61EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39BC9BD8-6163-496F-BC1B-13F991DC61EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39BC9BD8-6163-496F-BC1B-13F991DC61EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39BC9BD8-6163-496F-BC1B-13F991DC61EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{05B85248-4545-40B0-966D-185D807C4BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05B85248-4545-40B0-966D-185D807C4BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05B85248-4545-40B0-966D-185D807C4BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05B85248-4545-40B0-966D-185D807C4BA4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{98271D57-4D50-4923-B0FC-B6B41326295A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{98271D57-4D50-4923-B0FC-B6B41326295A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98271D57-4D50-4923-B0FC-B6B41326295A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98271D57-4D50-4923-B0FC-B6B41326295A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E94909B6-5EC3-4316-BE05-7FCACAA7F8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94909B6-5EC3-4316-BE05-7FCACAA7F8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94909B6-5EC3-4316-BE05-7FCACAA7F8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94909B6-5EC3-4316-BE05-7FCACAA7F8C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
