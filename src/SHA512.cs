@@ -9,7 +9,7 @@ namespace MetaFrm.Security
     {
         string IHashAlgorithm.ComputeHash(string value)
         {
-            return ((IHashAlgorithm)this).ComputeHash(value);
+            return ((IHashAlgorithm)this).ComputeHash(value, Encoding.UTF8);
         }
 
         string IHashAlgorithm.ComputeHash(string value, Encoding? encoding)
